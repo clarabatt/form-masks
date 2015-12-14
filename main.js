@@ -1,7 +1,7 @@
 (function( win, doc ){
     'use strict';
     var $cpf = doc.getElementsByName('cpf');
-    $cpf.addEventListener( 'keypress', mascara( this, cpfFormat ) );
+    $cpf.addEventListener( 'keypress', mascara );
 
     function mascara( objeto, funcao ){
         objeto.value = funcao( objeto.value );

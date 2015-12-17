@@ -8,7 +8,7 @@
         var func = funcao.value;
         return function(){
             obj = fun( obj );   
-            setTimeout( mascara(), 1 );
+            setTimeout( this, 1 );
         }
     }
 

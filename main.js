@@ -4,6 +4,8 @@
     $cpf.addEventListener( 'input', mascara );
 
     function mascara( objeto, funcao ){
+        var obj = objeto;
+        var func = funcao;
         objeto.value = funcao( objeto.value );
         setTimeout( mascara(), 1 );
     }

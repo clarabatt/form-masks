@@ -4,10 +4,12 @@
     $cpf.addEventListener( 'input', mascara );
 
     function mascara( objeto, funcao ){
-        var obj = objeto;
-        var func = funcao;
-        objeto.value = funcao( objeto.value );
-        setTimeout( mascara(), 1 );
+        var obj = objeto.value;
+        var func = funcao.value;
+        return function(){
+            obj = fun( obj );   
+            setTimeout( mascara(), 1 );
+        }
     }
 
     function cpfFormat( num ){

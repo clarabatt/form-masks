@@ -1,14 +1,14 @@
 (function( win, doc ){
     'use strict';
-    var $cpf = doc.getElementsByName('cpf');
-    $cpf.addEventListener( 'input', mascara );
+    var $cpf = doc.getElementById('cpf');
+    $cpf.addEventListener( 'input', function(){mascara($cpf, cpfFormat)}, false );
 
     function mascara( objeto, funcao ){
-        var obj = objeto.value;
+        var obj = this.value;
         var func = funcao.value;
         return function(){
             obj = fun( obj );   
-            setTimeout( this, 1 );
+            setTimeout( mascara(), 1 );
         }
     }
 

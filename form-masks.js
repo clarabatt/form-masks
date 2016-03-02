@@ -1,7 +1,7 @@
 (function( win, doc ){
     'use strict';
-    
-    function mascara( objeto, funcao ){
+
+    function formMasks( objeto, funcao ){
         var obj = objeto.value;
         var func = funcao;
         function exec(){ 

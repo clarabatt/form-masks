@@ -46,4 +46,7 @@
         num = num.replace(/(\d{5})(\d)/,"$1-$2");
         return num
     }
+
+    win.formMasks = formMasks;
+
 })( window, document );

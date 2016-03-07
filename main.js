@@ -1,4 +1,4 @@
-(function(){
+(function( win, doc ){
 	'use strict';
 
 	var $cpf = doc.getElementById('cpf');
@@ -16,4 +16,4 @@
     var $cep = doc.getElementById('cep');
     $cep.addEventListener( 'input', function(){formMasks($cep, cepFormat)}, false );
 
-})();
+})( window, document );

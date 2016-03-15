@@ -1,4 +1,4 @@
-(function( win, doc ){
+(function( window, document ){
     'use strict';
 
     function formMasks( objeto, funcao ){
@@ -16,7 +16,7 @@
         num = num.replace(/(\d{3})(\d)/,"$1.$2");
         num = num.replace(/(\d{3})(\d)/,"$1.$2");
         num = num.replace(/(\d{3})(\d{1,2})/,"$1-$2");
-        return num
+        return num;
     }
 
     function rgFormat( num ){
@@ -24,29 +24,34 @@
         num = num.replace(/(\d{2})(\d)/,"$1.$2");
         num = num.replace(/(\d{3})(\d)/,"$1.$2");
         num = num.replace(/(\d{3})(\d{1,2})/,"$1-$2");
-        return num
+        return num;
     }
 
     function telFormat( num ){
         num = num.replace(/[^0-9]/g,""); // tira os caracteres que não são números 
         num = num.replace(/(\d{3})(\d)/,"($1)$2");
         num = num.replace(/(\d{4})(\d)/,"$1-$2");
-        return num
+        return num;
     }
 
     function celFormat( num ){
         num = num.replace(/[^0-9]/g,""); // tira os caracteres que não são números 
         num = num.replace(/(\d{3})(\d)/,"($1)$2");
         num = num.replace(/(\d{4,5})(\d{4})/,"$1-$2");
-        return num
+        return num;
     }
 
     function cepFormat( num ){
         num = num.replace(/[^0-9]/g,""); // tira os caracteres que não são números 
         num = num.replace(/(\d{5})(\d)/,"$1-$2");
-        return num
+        return num;
     }
 
-    win.formMasks = formMasks;
+    window.formMasks = formMasks;
+    window.cpfFormat = cpfFormat;
+    window.rgFormat = rgFormat;
+    window.telFormat = telFormat;
+    window.celFormat = celFormat;
+    window.cepFormat = cepFormat;
 
 })( window, document );

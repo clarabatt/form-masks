@@ -1,6 +1,15 @@
-# form-masks
-Máscaras para formulários utilizando Regex e Javascript
+# FormMasks
 
-*[Teste Aqui](http://clarabatt.github.io/form-masks/)*
+Masks for forms using Regexp and Javascrip.
+
+- **CPF**
+- **RG**
+- **CEP**
+- **Tel**
+- **Cel**
+- **Date** *coming soon*
+- **Hour** *coming soon*
+
+*[Test](http://clarabatt.github.io/form-masks/)*
 
 

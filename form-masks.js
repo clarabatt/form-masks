@@ -4,11 +4,12 @@
     function formMasks( objeto, funcao ){
         var obj = objeto.value;
         var func = funcao;
-        function exec(){ 
-            obj = func( obj );
-            return obj;
-        }
-        objeto.value = exec();
+        objeto.value = exec( obj, func );
+    }
+
+    function exec( obj, func ){ 
+        obj = func( obj );
+        return obj;
     }
 
     function cpfFormat( num ){

@@ -3,35 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Form Masks</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="container">
-    <form class="form-container container">
-      <div class="cpf txt-center bloco">
-        <label>CPF:</label>
-        <input data-id="cpf" name="cpf"  type="text" maxlength="14" placeholder="111.111.111.-11">
-      </div>
+  <main>
+    <header>
+      <h1>Form Masks</h1>
+      <h4>Brazilian Format</h4>
+    </header>
 
-      <div class="rg txt-center bloco">
-        <label>RG:</label>
-        <input data-id="rg" name="rg"  type="text" maxlength="13" placeholder="11.111.111-1">
-      </div>
+    <form method="post" novalidate="novalidate">
+      <label for="cpf">CPF:</label>
+      <input data-id="cpf" id="cpf" name="cpf"  type="text" maxlength="14" placeholder="123.456.789-00">
 
-      <div class="telefone txt-center bloco">
-        <label>Telefone:</label>
-        <input data-id="tel" name="tel"  type="text" maxlength="14" placeholder="(111)1111-1111">
-      </div>
+      <label for="rg">RG:</label>
+      <input data-id="rg" name="rg" id="rg" type="text" maxlength="13" placeholder="12.345.678-9">
 
-      <div class="telefone txt-center bloco">
-        <label>Celular:</label>
-        <input data-id="cel" name="tel"  type="text" maxlength="15" placeholder="(111)11111-1111">
-      </div>
+      <label for="tel">Telefone:</label>
+      <input data-id="tel" name="tel" id="tel" type="text" maxlength="14" placeholder="(001)2345-6789">
 
-      <div class="cep txt-center bloco">
-        <label>CEP:</label>
-        <input data-id="cep" name="cep"  type="text" maxlength="9" placeholder="111111-111">
-      </div>
+      <label for="cel">Celular:</label>
+      <input data-id="cel" name="tel" id="cel" type="text" maxlength="15" placeholder="(000)12345-6789">
+
+      <label for="cep">CEP:</label>
+      <input data-id="cep" name="cep" id="cep" type="text" maxlength="9" placeholder="012345-678">
     </form>
   </main>
   <script src="js/lib/form-masks.js"></script>

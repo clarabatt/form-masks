@@ -1,0 +1,76 @@
+/*---------------IMPORT---------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+/*---------------GLOBAL---------------*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
+
+a,
+a:visited,
+a:active {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+p, span {
+}
+
+a,
+a:visited,
+a:active,
+a:hover,
+button,
+input, 
+input:active, 
+input:hover, 
+input:visited, 
+textarea {outline: none;}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: 600;
+	color: $blue;
+	text-transform: uppercase;
+}
+
+h1 {font-size: 32px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18.5px;}
+h4 {font-size: 16px;}
+h5 {font-size: 13.5px;}
+h6 {font-size: 11px;}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+input, textarea {
+	border: none;
+	display: block;
+}
+
+input[type="button"],
+input[type="submit"],
+button {
+	cursor: pointer;
+}
+
+.cleared {clear: both;}
+
+::-webkit-input-placeholder {color: rgba(255,255,255,0.9);}
+
+:-moz-placeholder {color: rgba(255,255,255,0.9);}
+
+::-moz-placeholder {color: rgba(255,255,255,0.9);}
+
+:-ms-input-placeholder {color: rgba(255,255,255,0.9);}

@@ -2,35 +2,33 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Form Masks</title>
-	<link rel="stylesheet" href="style/css/style.css">
+  	<title>Form Masks</title>
+  	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1 class="txt-center">Máscaras para Formulários</h1>
-	</header>
-	<form>
-		<div class="cpf txt-center bloco">
-	    	<label>CPF</label>
-	    	<input id="cpf" name="cpf"  type="text" maxlength="14" >
-	    </div>
-	    <div class="rg txt-center bloco">
-	    	<label>RG</label>
-	    	<input id="rg" name="rg"  type="text" maxlength="13" >
-	    </div>
-	    <div class="telefone txt-center bloco">
-	    	<label>Telefone</label>
-	    	<input id="tel" name="tel"  type="text" maxlength="14" >
-	    </div>
-	    <div class="telefone txt-center bloco">
-	    	<label>Celular</label>
-	    	<input id="cel" name="tel"  type="text" maxlength="15" >
-	    </div>
-	    <div class="cep txt-center bloco">
-	    	<label>CEP</label>
-	    	<input id="cep" name="cep"  type="text" maxlength="9" >
-	    </div>
-	</form>
-	<script src="main.js"></script>
+  	<main>
+	    <header>
+	      <h1>Form Masks</h1>
+	      <h4>Brazilian Format</h4>
+	    </header>
+	    <form method="post" novalidate="novalidate">
+	      <label for="cpf">CPF:</label>
+	      <input data-id="cpf" id="cpf" name="cpf"  type="text" maxlength="14" placeholder="123.456.789-00">
+
+	      <label for="rg">RG:</label>
+	      <input data-id="rg" name="rg" id="rg" type="text" maxlength="13" placeholder="12.345.678-9">
+
+	      <label for="tel">Telefone:</label>
+	      <input data-id="tel" name="tel" id="tel" type="text" maxlength="14" placeholder="(001)2345-6789">
+
+	      <label for="cel">Celular:</label>
+	      <input data-id="cel" name="tel" id="cel" type="text" maxlength="15" placeholder="(000)12345-6789">
+
+	      <label for="cep">CEP:</label>
+	      <input data-id="cep" name="cep" id="cep" type="text" maxlength="9" placeholder="012345-678">
+	    </form>
+  	</main>
+  	<script src="js/lib/form-masks.js"></script>
+  	<script src="js/main.js"></script>
 </body>
 </html>

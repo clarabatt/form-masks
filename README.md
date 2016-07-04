@@ -14,7 +14,7 @@ Masks for forms using Regexp and Javascript in Brazilian format.
 
 ## Contributors
 
-- [Clara Batt - Owner](https://github.com/clarabatt)
+- [Clara Battesini - Owner](https://github.com/clarabatt)
 - [William Oliveira](https://github.com/woliveiras)
 - [Matheus Hernandes](https://github.com/devmath)
 

@@ -1,6 +1,6 @@
 # FormMasks
 
-Masks for forms using Regexp and Javascrip.
+Masks for forms using Regexp and Javascript in Brazilian format.
 
 - **CPF**
 - **RG**
@@ -10,6 +10,12 @@ Masks for forms using Regexp and Javascrip.
 - **Date** *coming soon*
 - **Hour** *coming soon*
 
-*[Test](http://clarabatt.github.io/form-masks/)*
+*[Do a test](http://clarabatt.github.io/form-masks/)*
 
+## Contributors
 
+- [Clara Batt - Owner](https://github.com/clarabatt)
+- [William Oliveira](https://github.com/woliveiras)
+- [Matheus Hernandes](https://github.com/devmath)
+
+[CHANGELOG](https://github.com/clarabatt/form-masks/blob/master/CHANGELOG.md)

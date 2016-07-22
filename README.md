@@ -7,8 +7,8 @@ Masks for forms using Regexp and Javascript in Brazilian format.
 - **CEP**
 - **Tel**
 - **Cel**
-- **Date** *coming soon*
-- **Hour** *coming soon*
+- **Date**
+- **Hour**
 
 *[Do a test](http://clarabatt.github.io/form-masks/)*
 

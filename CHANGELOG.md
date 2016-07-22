@@ -9,3 +9,8 @@ This change log file follows many [SemVer's](http://semver.org/) rules.
 
 ### Changed
 - README.md is up to date
+
+## [1.0.2] 2016-07-04
+### Changed
+- README.md is up to date
+- Improved placeholder

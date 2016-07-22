@@ -48,6 +48,10 @@
     return num;
   }
 
+  function dateFormat( num ){
+    
+  }
+
   window.formMasks = formMasks;
   window.cpfFormat = cpfFormat;
   window.rgFormat = rgFormat;

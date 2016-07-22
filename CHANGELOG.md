@@ -2,7 +2,7 @@
 
 This change log file follows many [SemVer's](http://semver.org/) rules.
 
-## [1.1.2] 2016-07-04
+## [1.1.2] 2016-07-22
 ### Added
 - New date form mask
 - New hour form mask

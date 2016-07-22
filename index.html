@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-  	<title>Form Masks</title>
-  	<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Form Masks</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  	<main>
-	    <header>
-	      <h1>Form Masks</h1>
-	      <h4>Brazilian Format</h4>
-	    </header>
-	    <form method="post" novalidate="novalidate">
-	      <label for="cpf">CPF:</label>
-	      <input data-id="cpf" id="cpf" name="cpf"  type="text" maxlength="14" placeholder="123.456.789-00">
+  <main>
+    <header>
+      <h1>Form Masks</h1>
+      <h4>Brazilian Format</h4>
+    </header>
 
-	      <label for="rg">RG:</label>
-	      <input data-id="rg" name="rg" id="rg" type="text" maxlength="13" placeholder="12.345.678-9">
+    <form method="post" novalidate="novalidate">
+      <label for="cpf">CPF:</label>
+      <input data-id="cpf" type="text" maxlength="14" placeholder="123.456.789-00">
 
-	      <label for="tel">Telefone:</label>
-	      <input data-id="tel" name="tel" id="tel" type="text" maxlength="14" placeholder="(001)2345-6789">
+      <label for="rg">RG:</label>
+      <input data-id="rg" type="text" maxlength="13" placeholder="12.345.678-9">
 
-	      <label for="cel">Celular:</label>
-	      <input data-id="cel" name="tel" id="cel" type="text" maxlength="15" placeholder="(000)12345-6789">
+      <label for="tel">Telefone:</label>
+      <input data-id="tel" type="text" maxlength="14" placeholder="(001)2345-6789">
 
-	      <label for="cep">CEP:</label>
-	      <input data-id="cep" name="cep" id="cep" type="text" maxlength="9" placeholder="012345-678">
-	    </form>
-  	</main>
-  	<script src="js/lib/form-masks.js"></script>
-  	<script src="js/main.js"></script>
+      <label for="cel">Celular:</label>
+      <input data-id="cel" type="text" maxlength="15" placeholder="(000)12345-6789">
+
+      <label for="cep">CEP:</label>
+      <input data-id="cep" type="text" maxlength="9" placeholder="012345-678">
+
+      <label for="date">Date:</label>
+      <input data-id="date" type="text" maxlength="10" placeholder="22/07/2016">
+
+      <label for="date">Hour:</label>
+      <input data-id="hour" type="text" maxlength="5" placeholder="20:16">
+    </form>
+  </main>
+  <script src="js/lib/form-masks.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

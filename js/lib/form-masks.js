@@ -48,10 +48,26 @@
     return num;
   }
 
+  function dateFormat( num ){
+    num = num.replace(/[^0-9]/g,"");
+    num = num.replace(/(\d{2})(\d{2})/,"$1/$2");
+    num = num.replace(/(\d{2})(\d{2,4})/,"$1/$2");
+    return num;
+  }
+
+  function hourFormat( num ){
+    num = num.replace(/[^0-9]/g,"");
+    num = num.replace(/(\d{2})(\d{2})/,"$1:$2");
+    return num;
+  }
+
   window.formMasks = formMasks;
   window.cpfFormat = cpfFormat;
   window.rgFormat = rgFormat;
   window.telFormat = telFormat;
   window.celFormat = celFormat;
   window.cepFormat = cepFormat;
+  window.dateFormat = dateFormat;
+  window.hourFormat = hourFormat;
+
 })( window );

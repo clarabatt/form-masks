@@ -6,10 +6,12 @@
   var $tel = document.querySelector('[data-id="tel"]');
   var $cel = document.querySelector('[data-id="cel"]');
   var $cep = document.querySelector('[data-id="cep"]');
+  var $date = document.querySelector('[data-id="date"]');
 
   $cpf.addEventListener( 'input', function(){ formMasks( $cpf, cpfFormat ) }, false );
   $rg.addEventListener( 'input', function(){ formMasks( $rg, rgFormat ) }, false );
   $tel.addEventListener( 'input', function(){ formMasks( $tel, telFormat ) }, false );
   $cel.addEventListener( 'input', function(){ formMasks( $cel, celFormat ) }, false );
-  $cep.addEventListener( 'input', function(){ formMasks( $cep, cepFormat ) }, false );
+  $cep.addEventListener( 'input', function(){ formMasks( $cep, cepFormat ) }, false );  
+  $date.addEventListener( 'input', function(){ formMasks( $date, dateFormat ) }, false );
 })( window, document, formMasks );

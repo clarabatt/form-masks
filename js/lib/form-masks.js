@@ -61,4 +61,5 @@
   window.telFormat = telFormat;
   window.celFormat = celFormat;
   window.cepFormat = cepFormat;
+  window.dateFormat = dateFormat;
 })( window );

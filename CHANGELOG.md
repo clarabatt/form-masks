@@ -2,10 +2,10 @@
 
 This change log file follows many [SemVer's](http://semver.org/) rules.
 
-## [1.0.1] 2016-06-11
+## [1.1.2] 2016-07-04
 ### Added
-- Style to repo
-- Change log file
+- New date form mask
+- New hour form mask
 
 ### Changed
 - README.md is up to date
@@ -14,3 +14,11 @@ This change log file follows many [SemVer's](http://semver.org/) rules.
 ### Changed
 - README.md is up to date
 - Improved placeholder
+
+## [1.0.1] 2016-06-11
+### Added
+- Style to repo
+- Change log file
+
+### Changed
+- README.md is up to date
